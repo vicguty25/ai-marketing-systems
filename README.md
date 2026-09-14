@@ -4,7 +4,8 @@
 
 Sistemas de marketing autónomos: de un brief a N piezas, con empatía de marca primero y IA como multiplicador.
 
-[LinkedIn](https://www.linkedin.com/in/) · Email: victor.guty25@gmail.com · Colombia
+Portafolio web: https://portafolio-victor-one-theta.vercel.app/  
+Email: victor.guty25@gmail.com · Colombia · Building in public
 
 ---
 
