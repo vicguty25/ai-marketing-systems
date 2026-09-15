@@ -1,63 +1,76 @@
-# AI Marketing Systems — Víctor Gutiérrez
+# Sistemas de marketing
 
-**Growth & AI Content Systems** · Specialized Marketing & Media Content AI
+Cómo paso de un problema de negocio a piezas publicadas, y cómo sé si sirvió.
 
-Sistemas de marketing autónomos: de un brief a N piezas, con empatía de marca primero y IA como multiplicador.
-
-- GitHub: https://github.com/vicguty25/ai-marketing-systems  
-- Portafolio web: https://portafolio-victor-one-theta.vercel.app/  
-- Email: victor.guty25@gmail.com · Colombia · Building in public
+No es una plantilla para rellenar. Es el orden de decisiones que uso, con **un
+caso real trabajado de punta a punta** y los prompts que uso en cada paso —
+incluyendo dónde falla cada uno.
 
 ---
 
-## Quién soy
+## El sistema
 
-Empecé en el **diseño gráfico** porque siempre me encantó crear. De Venezuela a Colombia reconstruí mi camino y descubrí que lo que realmente me mueve es la **estrategia 1→N**: empatizar con el usuario y hacer que una marca impacte a escala.
+| Paso | Qué produce | Está terminado cuando |
+|---|---|---|
+| [01 · Brief](sistema/01-brief.md) | Una hoja ejecutable sin preguntar nada | Alguien ajeno puede decirte qué **no** hacer |
+| [02 · Mensaje](sistema/02-mensaje.md) | 2–4 ángulos incompatibles entre sí | Elegir uno obliga a renunciar a los otros |
+| [03 · Copy](sistema/03-copy.md) | Texto por canal | Se adivina el ángulo leyendo solo las piezas |
+| [04 · Brief creativo](sistema/04-brief-creativo.md) | Lo que el diseñador necesita | No pregunta nada por WhatsApp antes de empezar |
+| [05 · Medición](sistema/05-medicion.md) | Saber si repetirlo | La respuesta cabe en una frase y tiene un número |
 
-Hoy construyo —junto a un equipo técnico— flujos de **inbound, SEO, contenido y campañas** acelerados con IA. No vendo “reemplazo de agencias”; documento un **sistema en construcción**.
+**→ [El sistema aplicado a un producto real](ejemplo/pulse.md)** — el pipeline
+completo sobre [Pulse](https://github.com/vicguty25/pyme-pulse), donde el brief
+descarta tres de cuatro ángulos y se ve por qué.
 
-## Qué hay en este repo
+**→ [Los prompts](prompts/README.md)** — cuatro, cada uno con su modo de fallo.
 
-| Ruta | Qué es |
-|------|--------|
-| [`campaign-brief-to-assets/`](./campaign-brief-to-assets) | Pipeline demo: brief → copy → brief creativo → checklist SEO/inbound |
-| [`docs/brand.md`](./docs/brand.md) | Resumen de marca personal |
-| Este README | Perfil + stack + call-to-action |
+---
 
-## Pipeline (demo)
+## Dónde entra la IA, y dónde no
 
-```text
-Brief de negocio
-    ↓
-Mensaje / ángulos (empatía + oferta)
-    ↓
-Copy canal (feed, story, landing, email)
-    ↓
-Brief creativo (diseño / motion)
-    ↓
-Checklist SEO + inbound + medición
-```
+Es la parte que más se exagera, así que la dejo explícita:
 
-Ver plantillas en [`campaign-brief-to-assets/README.md`](./campaign-brief-to-assets/README.md).
+| | La IA sirve | La IA no sirve |
+|---|---|---|
+| **Brief** | Interrogarlo, encontrar lo vago | Responderlo. Si la máquina contesta, nadie pensó — y pensar *es* el producto |
+| **Mensaje** | Producir volumen para descartar | Elegir. Depende de saber qué creencia es la más cara de mover |
+| **Copy** | Quince variantes en un minuto | Sonar a alguien. Sale correcto y sin voz |
+| **Creativo** | Referencias, variaciones | Jerarquía. Qué se lee primero es una decisión de negocio |
+| **Medición** | Agrupar respuestas abiertas, con volumen | Decidir qué medir |
 
-## Stack
+El patrón se repite: **la IA multiplica una decisión ya tomada. No la toma.**
 
-- **Estrategia:** Inbound (HubSpot) · SEO (SEMrush) · Content systems
-- **IA:** Google AI Essentials · prompts operativos para brief/copy
-- **Diseño:** Adobe Illustrator · Photoshop · InDesign
-- **Base técnica:** Técnico en Sistemas
+Por eso donde no hay volumen tampoco la uso. En
+[Voz](https://github.com/vicguty25/voz-cliente-nps) los comentarios se clasifican
+con reglas de palabras clave y no con un modelo: una regla es legible y
+corregible, y a decenas de comentarios al mes gana una lista bien escogida.
 
-## Certificaciones (2026)
+---
 
-- Google AI Essentials — Abr 2026
-- SEMrush SEO Fundamentals — May 2026
-- HubSpot Inbound Marketing — Jun 2026
-- Google Skillshop — Jul 2026
+## De dónde sale esto
 
-## Hackathon / Open Payments
+De diseñar convocatorias semanales para eventos masivos en
+[Iglesia Misión Paz](https://github.com/vicguty25) —Cambiatón, Martes de
+Avivamiento, Revolución— donde una pieza no gana por bonita: gana cuando alguien
+en el bus, con tres segundos, entiende qué es, cuándo es y dónde es.
 
-Disponible para equipos en **Interledger / Build the Future of Finance**: narrativa de producto, contenido de growth y sistemas que conecten pagos abiertos con un mensaje claro para el usuario.
+Y de construir siete productos donde el marketing y el producto tienen que medir
+lo mismo. Si miden cosas distintas, uno de los dos está midiendo lo que le
+conviene.
 
-## Licencia
+**[Los siete productos →](https://github.com/vicguty25)**
 
-MIT — usa y adapta el pipeline con atribución si te sirve.
+---
+
+## Formación
+
+Google AI Essentials · Semrush SEO · HubSpot Inbound Marketing · Google
+Skillshop (2026) · Técnico en Diseño Gráfico y Técnico en Sistemas, SENA
+
+---
+
+Víctor Gutiérrez · Cali, Colombia · victor.guty25@gmail.com
+[Portafolio](https://portafolio-victor-one-theta.vercel.app/) ·
+[LinkedIn](https://www.linkedin.com/in/victor-gutierrez-0269001b2/)
+
+MIT — úsalo y adáptalo.
