@@ -71,6 +71,6 @@ Skillshop (2026) · Técnico en Diseño Gráfico y Técnico en Sistemas, SENA
 
 Víctor Gutiérrez · Cali, Colombia · victor.guty25@gmail.com
 [Portafolio](https://portafolio-victor-one-theta.vercel.app/) ·
-[LinkedIn](https://www.linkedin.com/in/victor-gutierrez-0269001b2/)
+[LinkedIn](https://www.linkedin.com/in/victor-gutierrez-moreno/)
 
 MIT — úsalo y adáptalo.
